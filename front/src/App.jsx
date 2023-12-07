@@ -4,7 +4,6 @@ import Tinder from './TInder'
 function App() {
   return (
    <>
-   zz
    
    </>
   )
