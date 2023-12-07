@@ -1,9 +1,9 @@
 import './App.scss'
-import TinderCard from './TinderCard'
+import Tinder from './TInder'
 
 function App() {
   return (
-    <TinderCard />
+    <Tinder/>
   )
 }
 
