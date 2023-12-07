@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Header from "./Header";
+import Tinder from "./TInder";
 
 
 export default function AppRouter() {
@@ -9,6 +10,7 @@ export default function AppRouter() {
         <Header />
         <Routes>
           <Route path="/" element={<App />} />
+          <Route path="/tinder" element={<Tinder />} />
           <Route
             path="*"
             element={
